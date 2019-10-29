@@ -21,20 +21,19 @@ make fclean
 ./fdf [ test_maps/mapfile.fdf ]
 ```
 
-###### <b> Test maps provided in this repository: </b><br>
+###### <b> Test maps provided in this repository. </b><br>
 
-- Controls: 
-```
-Move with arrows (UP, DOWN, RIGHT, LEFT).
-Change hight using + and -.
-Zoon in: I
-Zoon out: O.
-Four sets of colors, change with the following keys:
-B = Blue.
-P = Pink.
-R = Red.
-Y = Yellow.
-```
+<b>Controls: </b>
+> Move with arrows (UP, DOWN, RIGHT, LEFT). <br>
+> Change hight using + and -.<br>
+> Zoon in: I<br>
+> Zoon out: O.<p>
+> <b>Four sets of colors, change with the following keys:</b><br>
+> B = Blue.<br>
+> P = Pink.<br>
+> R = Red.<br>
+> Y = Yellow.<br>
+
 ## <b> Images: </b><br>
 ###### <b> 42 Map: </b><br>
 ![alt text](https://i.imgur.com/RfcUH5a.png)
