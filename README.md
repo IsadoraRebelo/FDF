@@ -28,6 +28,7 @@ make fclean
 > Change hight using + and -.<br>
 > Zoon in: I<br>
 > Zoon out: O.<p>
+> ESC to quit the program.<p>
 > <b>Four sets of colors, change with the following keys:</b><br>
 > B = Blue.<br>
 > P = Pink.<br>
