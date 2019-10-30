@@ -3,10 +3,10 @@
 #                                                         ::::::::             #
 #    Makefile                                           :+:    :+:             #
 #                                                      +:+                     #
-#    By: ihering- <marvin@codam.nl>                   +#+                      #
+#    By: ihering- <ihering-@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
-#    Created: 2019/01/19 17:44:26 by ihering-       #+#    #+#                 #
-#    Updated: 2019/10/30 12:56:10 by ihering-      ########   odam.nl          #
+#    Created: 2019/10/30 14:27:51 by ihering-       #+#    #+#                 #
+#    Updated: 2019/10/30 14:38:52 by ihering-      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,8 +25,7 @@ FILES = ft_whitespaces ft_memset ft_bzero ft_memcpy ft_memccpy \
 		ft_putchar_fd ft_putstr_fd ft_putendl_fd ft_putnbr_fd \
 		ft_lstadd ft_lstdel ft_lstdelone ft_lstiter ft_lstmap \
 		ft_lstnew ft_leng ft_swap ft_strarrdel get_next_line \
-		ft_sqrt
-
+		ft_sqrt ft_error
 
 OBJDIR = obj/
 SRCDIR = srcs/
@@ -47,7 +46,7 @@ CCHF:=.cache_exists
 all: $(NAME)
 
 $(NAME): $(OBJ)
-		@echo "$(BLUE_1)Done$(RESET)"
+		@echo "$(BLUE_1)Done $(RESET)"
 		@ar rc $(NAME) $(OBJ)
 		@ranlib $(NAME)
 
@@ -68,7 +67,6 @@ clean:
 
 fclean: clean
 		@rm -rf $(NAME)
-
 re: fclean all
 
 .PHONY: all clean fclean re
