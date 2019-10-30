@@ -6,17 +6,17 @@
 /*   By: ihering- <ihering-@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/03/29 10:17:01 by ihering-       #+#    #+#                */
-/*   Updated: 2019/06/06 13:50:20 by ivan-tey      ########   odam.nl         */
+/*   Updated: 2019/10/30 13:05:42 by ihering-      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
 
-# include "libft/includes/libft.h"
+# include "../libft/include/libft.h"
 # include <fcntl.h>
 # include <math.h>
-# include "./minilibx/mlx.h"
+# include "../minilibx/mlx.h"
 
 # define HIGHTTUP 24
 # define HIGHTTDOWN 27

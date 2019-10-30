@@ -6,7 +6,7 @@
 #    By: ihering- <ihering-@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/04/18 11:12:08 by ivan-tey       #+#    #+#                 #
-#    Updated: 2019/06/06 13:24:55 by ivan-tey      ########   odam.nl          #
+#    Updated: 2019/10/30 13:22:53 by ihering-      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,9 +16,9 @@ H = ./
 SRC = main.c valid.c values.c fdf.c draw.c slopes.c controls.c colours.c \
 	menu.c
 OBJ = $(SRC:%.c=%.o)
-HDR = fdf.h libft/includes/libft.h
+HDR = fdf.h libft/include/libft.h
 MINILIBX = -I minilibx -L minilibx -lmlx -framework OpenGL -framework Appkit
-LIB = -I libft/includes -L libft -lft
+LIB = -I libft/include -L libft -lft
 FLAGS = -Wall -Werror -Wextra
 
 LIGHTER_PINK = \033[38;5;212m
